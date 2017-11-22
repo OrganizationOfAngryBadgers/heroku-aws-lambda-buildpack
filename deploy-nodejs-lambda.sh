@@ -9,7 +9,7 @@ OUTPUT_FILE="/tmp/lambda.zip"
 
 echo "Copying source to temporary location"
 mkdir -p "${OUTPUT_DIR}"
-cp -R ~/* "${OUTPUT_DIR}"
+cp -R ~/src/* "${OUTPUT_DIR}"
 
 retrieveProperties "${OUTPUT_DIR}env.properties"
 
